@@ -4,7 +4,7 @@ Version: 0.0.1
 Summary: Starter template for making a custom Reasoning and Action agent (using tool calling) in LangGraph.
 Author: Tarik Achibane
 License: MIT
-Requires-Python: <4.0,>=3.11
+Requires-Python: <4.0,>=3.12
 Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: langgraph<0.7.0,>=0.6.6
@@ -17,6 +17,8 @@ Requires-Dist: langchain-tavily>=0.1
 Requires-Dist: langchain-mistralai>=0.2.0
 Requires-Dist: langchain-chroma>=0.2.6
 Requires-Dist: protobuf>=6.3.1
+Requires-Dist: fastapi>=0.99.0
+Requires-Dist: uvicorn[standard]>=0.26.0
 Provides-Extra: dev
 Requires-Dist: mypy>=1.11.1; extra == "dev"
 Requires-Dist: ruff>=0.6.1; extra == "dev"

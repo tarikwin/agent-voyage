@@ -3,11 +3,11 @@ name = "react-agent"
 version = "0.0.1"
 description = "Starter template for making a custom Reasoning and Action agent (using tool calling) in LangGraph."
 authors = [
-    { name="Tarik Achibane" },
+    { name = "Tarik Achibane" }
 ]
 readme = "README.md"
 license = { text = "MIT" }
-requires-python = ">=3.11,<4.0"
+requires-python = ">=3.12,<4.0"
 dependencies = [
     "langgraph>=0.6.6,<0.7.0",
     "langchain-openai>=0.1.22",
@@ -19,8 +19,8 @@ dependencies = [
     "langchain-mistralai>=0.2.0",
     "langchain-chroma>=0.2.6",
     "protobuf>=6.3.1",
-    fastapi = "^0.99.0",
-    uvicorn = {extras = ["standard"], version = "^0.26.0"}
+    "fastapi>=0.99.0",
+    "uvicorn[standard]>=0.26.0"
 ]
 
 
@@ -67,6 +67,8 @@ convention = "google"
 
 [dependency-groups]
 dev = [
+    "mypy>=1.11.1",
+    "ruff>=0.6.1",
     "langgraph-cli[inmem]>=0.1.71",
     "pytest>=8.3.5",
 ]

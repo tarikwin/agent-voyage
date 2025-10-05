@@ -7,6 +7,7 @@ react_agent.egg-info/dependency_links.txt
 react_agent.egg-info/requires.txt
 react_agent.egg-info/top_level.txt
 src/react_agent/__init__.py
+<<<<<<< HEAD
 src/react_agent/api.py
 src/react_agent/chroma_demo.py
 src/react_agent/configuration.py
@@ -20,3 +21,8 @@ src/react_agent/prompts.py
 src/react_agent/state.py
 src/react_agent/tools.py
 src/react_agent/utils.py
+=======
+src/react_agent/graph.py
+src/react_agent/prompts.py
+src/react_agent/test.py
+>>>>>>> a35405f (push project)
