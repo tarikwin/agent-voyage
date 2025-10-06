@@ -12,6 +12,7 @@ uv.lock
 build/
 **/build/
 develop-eggs/
+react_agent.egg-info/
 dist/
 downloads/
 eggs/
